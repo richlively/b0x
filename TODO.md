@@ -1,0 +1,22 @@
+- bash
+	- bashrc
+	- bashaliases
+- zsh
+	- configuration
+- vim
+	- vimrc
+- neovim
+	- configuration
+	- plugins
+	- IDE features
+- Oh My Posh 3
+	- theme
+- Terminal
+	- prefered terminals
+	- fonts
+	- colors and themes
+- Packages
+	- make a txt file with packages to install on Ubuntu
+	- have some handy dandy documentation on the packages and any shortcuts
+- Programs
+	- things not for shell like VSCode and JetBrains software

@@ -1,0 +1,3 @@
+Simple readme
+
+This repo is to keep track of various configuration, links, etc....

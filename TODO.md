@@ -1,7 +1,7 @@
 - bash
 	- bashrc
 	- bashaliases
-- zsh
+- zsh or fish as "better" bash
 	- configuration
 - vim
 	- vimrc

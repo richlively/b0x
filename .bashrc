@@ -135,7 +135,6 @@ _fzf_compgen_dir() {
 
 export FZF_DEFAULT_COMMAND="fd --type file"
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
-export FZF_ALT_C_COMMAND="fd --type d"
 
 # export Gradle paths
 GRADLE_USER_HOME=$HOME/.gradle

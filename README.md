@@ -8,6 +8,8 @@ bash <(curl -Ls https://raw.githubusercontent.com/richlively/b0x/master/b0x/inst
 If any files already exist, they will be moved to **.b0x-backup**. Basically this is using a [bare git repository](https://www.atlassian.com/git/tutorials/dotfiles) to avoid getting everything in the home directory.
 There are more scripts in the **b0x** directory to do further installation.
 ## TODO
+ - [ ] Make better install script (currently does not handle files in folders)
+ - [ ] Make a more sane way of installing packages (initially grabbed them by outputting apt-get list)
  - [ ] bash
     - [ ] bashrc
     - [ ] bashaliases

@@ -10,6 +10,7 @@ There are more scripts in the **b0x** directory to do further installation.
 ## TODO
  - [ ] Make better install script (currently does not handle files in folders)
  - [ ] Make a more sane way of installing packages (initially grabbed them by outputting apt-get list)
+ - [ ] fzf and fd
  - [ ] bash
     - [ ] bashrc
     - [ ] bashaliases

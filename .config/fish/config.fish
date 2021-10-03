@@ -5,4 +5,4 @@ abbr b0x 'git --git-dir=$HOME/.b0x --work-tree=$HOME'
 # Gradle
 set -gx GRADLE_USER_HOME "$HOME/.gradle"
 set -gx GRADLE_HOME "$GRADLE_USER_HOME/wrapper/dists/gradle-4.6"
-fish_add_path $GRADLE_HOME/bin
+contains $GRADLE_HOME/bin $fish_user_paths; or set -Ua fish_user_paths $GRADLE_HOME/bin

@@ -1,2 +1,4 @@
 Change fish to be default by
 chsh -s /usr/bin/fish
+
+may want to add fish repo to get the latest version (apt)

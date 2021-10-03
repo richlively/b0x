@@ -1,0 +1,78 @@
+{
+    "blocks": [
+        {
+            "type": "prompt",
+            "alignment": "left",
+            "segments": [
+                {
+                    "type": "time",
+                    "style": "plain",
+                    "foreground": "#30be30",
+                    "properties": {
+                        "prefix": "",
+                        "postfix": " \uf017 ",
+                        "time_format": "15:04:05"
+                    }
+                },
+                {
+                    "type": "session",
+                    "style": "plain",
+                    "foreground": "#00ff00",
+                    "properties": {
+                        "prefix": "",
+                        "postfix": "<#ff7b7b> in </>",
+                        "display_host": false
+                    }
+                },
+                {
+                    "type": "path",
+                    "style": "plain",
+                    "foreground": "#00a400",
+                    "properties": {
+                        "prefix": "",
+                        "postfix": "",
+                        "style": "agnoster_short"
+                    }
+                },
+                {
+                    "type": "git",
+                    "style": "plain",
+                    "foreground": "#30be30",
+                    "properties": {
+                        "prefix": " (",
+                        "postfix": ")",
+                        "display_status": true,
+                        "display_status_detail": false
+                    }
+                },
+                {
+                    "type": "executiontime",
+                    "style": "plain",
+                    "foreground": "#777777",
+                    "properties": {
+                        "postfix": ""
+                    }
+                },
+                {
+                    "type": "root",
+                    "style": "plain",
+                    "foreground": "#FFFF00",
+                    "properties": {
+                        "postfix": "<#ff7b7b>\ue0b1</>"
+                    }
+                },
+                {
+                    "type": "text",
+                    "style": "plain",
+                    "foreground": "#ff7b7b",
+                    "properties": {
+                        "prefix": "",
+                        "postfix": "",
+                        "text": " \uf061"
+                    }
+                }
+            ]
+        }
+    ],
+    "final_space": true
+}

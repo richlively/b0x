@@ -116,6 +116,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
+eval "$(oh-my-posh --init --shell bash --config ~/.config/b0x.omp.json)"
+
 export VISUAL=nvim
 export EDITOR="$VISUAL"
 

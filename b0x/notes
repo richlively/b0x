@@ -1,0 +1,2 @@
+Change fish to be default by
+chsh -s /usr/bin/fish

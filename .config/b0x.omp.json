@@ -54,6 +54,15 @@
                     }
                 },
                 {
+                    "type": "exit",
+                    "style": "plain",
+                    "foreground": "#a40000",
+                    "properties": {
+                        "prefix": " <",
+                        "postfix": "> "
+                    }
+                },
+                {
                     "type": "root",
                     "style": "plain",
                     "foreground": "#FFFF00",

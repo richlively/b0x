@@ -10,7 +10,7 @@
                     "foreground": "#30be30",
                     "properties": {
                         "prefix": "",
-                        "postfix": " \uf017 ",
+                        "postfix": " \uf017",
                         "time_format": "15:04:05"
                     }
                 },
@@ -19,8 +19,7 @@
                     "style": "plain",
                     "foreground": "#00ff00",
                     "properties": {
-                        "prefix": "",
-                        "postfix": "<#ff7b7b> in </>",
+                        "postfix": "<#ff7b7b> in</>",
                         "display_host": false
                     }
                 },
@@ -29,9 +28,8 @@
                     "style": "plain",
                     "foreground": "#00a400",
                     "properties": {
-                        "prefix": "",
-                        "postfix": "",
-                        "style": "agnoster_short"
+                        "style": "agnoster_short",
+                        "postfix": ""
                     }
                 },
                 {
@@ -59,7 +57,7 @@
                     "foreground": "#a40000",
                     "properties": {
                         "prefix": " <",
-                        "postfix": "> "
+                        "postfix": ">"
                     }
                 },
                 {
@@ -75,9 +73,8 @@
                     "style": "plain",
                     "foreground": "#ff7b7b",
                     "properties": {
-                        "prefix": "",
                         "postfix": "",
-                        "text": " \uf061"
+                        "text": "\uf061"
                     }
                 }
             ]

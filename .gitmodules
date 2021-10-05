@@ -1,0 +1,3 @@
+[submodule "/home/rlively/.config/nvim"]
+	path = /home/rlively/.config/nvim
+	url = git@github.com:richlively/NvChad.git

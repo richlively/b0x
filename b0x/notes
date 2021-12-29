@@ -3,14 +3,13 @@ chsh -s /usr/bin/fish
 
 Tools that should be fine to apt install normally
 fzf
-ag-silversearcher
+ag
 neofetch
-
-Tools that should be installed from source
-fd-find
-bat
+fd (make a symlink)
+bat (make a symlink)
 nvim
 fish
+oh-my-posh
 
 Caskaydia Cove Nerd Font is preferred so it works well with Oh-My-Posh
 

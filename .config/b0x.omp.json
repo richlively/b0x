@@ -65,7 +65,7 @@
                     "style": "plain",
                     "foreground": "#FFFF00",
                     "properties": {
-                        "postfix": "<#ff7b7b>\ue0b1</>"
+                        "postfix": ""
                     }
                 },
                 {

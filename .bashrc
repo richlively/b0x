@@ -121,6 +121,8 @@ eval "$(oh-my-posh --init --shell bash --config ~/.config/b0x.omp.json)"
 export VISUAL=nvim
 export EDITOR="$VISUAL"
 
+PATH=$HOME/bin:$PATH:
+
 # set vi mode
 set -o vi
 

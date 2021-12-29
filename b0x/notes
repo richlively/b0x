@@ -1,4 +1,13 @@
 Change fish to be default by
 chsh -s /usr/bin/fish
 
-may want to add fish repo to get the latest version (apt)
+Tools that should be fine to apt install normally
+fzf
+ag-silversearcher
+neofetch
+
+Tools that should be installed from source
+fd-find
+bat
+nvim
+fish

@@ -9,7 +9,7 @@ if b0x checkout; then
 else
 	echo "Backing up pre-existing dot files.";
 	mkdir -p .b0x-backup
-	b0x checkout 2>&1 | grep -e "\s+\." | awk "{'print $1'}" | xargs -I{} mv {} .b0x-backup/{}
+	b0x checkout 2>&1 | grep -e "\s+\." | awk "{print $1}" | xargs -I{} mv {} .b0x-backup/{}
 	b0x checkout
 fi;
 b0x config status.showUntrackedFiles no
